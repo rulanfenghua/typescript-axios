@@ -29,6 +29,8 @@ module.exports = {
     'semi': [
       'error',
       'never'
-    ]
+    ],
+    'no-param-reassign': 'off',
+    'no-useless-call': 'off'
   }
 }

@@ -31,6 +31,7 @@ module.exports = {
       'never'
     ],
     'no-param-reassign': 'off',
-    'no-useless-call': 'off'
+    'no-useless-call': 'off',
+    'no-undefined': 'off'
   }
 }

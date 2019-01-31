@@ -13,7 +13,7 @@ export interface AxiosRequestConfig {
   paramSerializer?: (params: any) => string;
   onUploadProgress?: (progressEvent: any) => void;
   onDownloadProgress?: (progressEvent: any) => void;
-  validitystate?: (status: number) => boolean;
+  validateStatus?: (status: number) => boolean;
   adapter?: AxiosAdapter;
   auth?: any;
   transfromRequest?: AxiosTransformer | AxiosTransformer[];

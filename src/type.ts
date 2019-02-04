@@ -10,7 +10,7 @@ export interface AxiosRequestConfig {
   timeout?: number;
   withCredentials?: boolean;
   responseType?: XMLHttpRequestResponseType;
-  paramSerializer?: (params: any) => string;
+  paramsSerializer?: (params: any) => string;
   onUploadProgress?: (progressEvent: any) => void;
   onDownloadProgress?: (progressEvent: any) => void;
   validateStatus?: (status: number) => boolean;
